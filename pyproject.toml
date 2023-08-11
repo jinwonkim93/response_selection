@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "reponse-selection-template"
+version = "0.1.0"
+description = ""
+authors = ["Jinwon Kim <jw93@estsoft.com>"]
+readme = "README.md"
+packages = [{include = "response_selection"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
